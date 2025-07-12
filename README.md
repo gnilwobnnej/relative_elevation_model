@@ -57,28 +57,34 @@ This will generate a 3D surface plot and save it as a PNG in the `3d_render/` di
 
 ## Examples
 
+### REM near the Everglades in Florida
 ![Screenshot of REM of the everglades](screenshots/ss_everglades.png)
 - The DEM and smoothed map show low-relief terrain (flat landscape).
 - REM is very faint, which is expected in flat wetland areas.
 - Only small patches of relative elevation differences, likely tree islands, levees, or anthropogenic features.
 
+### REM of Mount Hood in Oragon 
 ![Screenshot of REM of Mount Hood area](screenshots/ss_mthood.png)
 - Clearly a mountainous region, likely volcanic terrain.
 - REM highlights valley bottoms, ridges, and drainage patterns.
 - High contrast REM suggests a complex terrain with strong local relief, ideal for hydrological modeling or identifying glacial valleys.
 
+### REM near Camp Bull in Texas
 ![Screenshot of Texas near camp bulls](screenshots/ss_cbulls.png)
 - Terrain looks rugged with dense ridge networks.
 - The REM shows complex micro-topography, possibly dissected uplands or hilly terrain.
 
-![3d REM of mount hood](3d_render/hood.png)
-- Elevation range: Z-axis ranges roughly from -60 to +60 meters. This suggests relatively rugged terrain—maybe forested or mountainous.
-- Use case: Could be used for landslide detection, trail planning, or forest topography studies.
-
+### 3D REM of the Everglades
 ![3d REM near the everglades](3d_render/rem_3d_static_plot.png)
 - Elevation range: -0.4 to +0.4 meters.
 - Use case: Useful for wetland microtopography, archaeological surveys, or precise engineering like flood modeling.
 
+### 3D REM of Mount Hood
+![3d REM of mount hood](3d_render/hood.png)
+- Elevation range: Z-axis ranges roughly from -60 to +60 meters. This suggests relatively rugged terrain—maybe forested or mountainous.
+- Use case: Could be used for landslide detection, trail planning, or forest topography studies.
+
+### 3D REM near Camp Bulls
 ![3d REM near camp bulls](3d_render/tex.png)
 - Elevation range: Around -30 to +30 meters. Shows some terrain variation but not mountainous, maybe rolling hills, urban zones, or floodplains.
 - Use case: Could support urban planning, drainage studies, or land cover classification.
